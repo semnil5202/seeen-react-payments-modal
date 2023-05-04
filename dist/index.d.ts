@@ -1,3 +1,5 @@
 /// <reference types="react" />
-declare const MyModal: () => JSX.Element;
+declare const MyModal: ({ greeting }: {
+    greeting: string;
+}) => JSX.Element;
 export default MyModal;

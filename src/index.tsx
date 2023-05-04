@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
-const MyModal = () => {
-  const [greeting, setGreeting] = useState('hello');
-
+const MyModal = ({ greeting }: { greeting: string }) => {
   return <div>{greeting}</div>;
 };
 

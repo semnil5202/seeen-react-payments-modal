@@ -1,7 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { useState } from 'react';
-const MyModal = () => {
-    const [greeting, setGreeting] = useState('hello');
+const MyModal = ({ greeting }) => {
     return _jsx("div", { children: greeting });
 };
 export default MyModal;
