@@ -6,7 +6,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: 'seeen-react-payments-modal',
-    libraryTarget: 'umd',
   },
   module: {
     rules: [
