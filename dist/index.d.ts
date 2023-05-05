@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 interface ModalProps {
     children: React.ReactNode;
     isModalOpen: boolean;

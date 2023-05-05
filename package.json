@@ -1,7 +1,7 @@
 {
   "name": "seeen-react-payments-modal",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "우아한테크코스 리액트 페이먼츠 모달 배포 요구사항",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
