@@ -27,7 +27,7 @@ const Modal = ({ children, isModalOpen, closeModal }: ModalProps) => {
   const delayClosingModalForAnim = (closeModalFn: () => void) => {
     setTimeout(() => {
       closeModalFn();
-    }, 300);
+    }, 500);
   };
 
   return createPortal(
